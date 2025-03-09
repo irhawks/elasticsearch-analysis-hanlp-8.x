@@ -4,6 +4,7 @@
     <dependencySet>
       <excludes>
         <exclude>org.elasticsearch:elasticsearch</exclude>
+        <exclude>org.elasticsearch.pluging:elasticsearch-plugin-api</exclude>
       </excludes>
       <outputDirectory>analysis-hanlp/</outputDirectory>
       <useProjectArtifact>true</useProjectArtifact>
