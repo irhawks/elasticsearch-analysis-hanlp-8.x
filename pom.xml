@@ -59,6 +59,11 @@
       <version>${elasticsearch.version}</version>
     </dependency>
     <dependency>
+      <artifactId>elasticsearch-plugin-api</artifactId>
+      <groupId>org.elasticsearch.plugin</groupId>
+      <version>${elasticsearch.version}</version>
+    </dependency>
+    <dependency>
       <artifactId>httpclient</artifactId>
       <groupId>org.apache.httpcomponents</groupId>
       <version>4.5.13</version>
@@ -141,7 +146,7 @@
     <elasticsearch.plugin.classname>org.elasticsearch.plugin.analysis.hanlp.AnalysisHanLPPlugin
     </elasticsearch.plugin.classname>
     <elasticsearch.plugin.name>hanlp plugin</elasticsearch.plugin.name>
-    <elasticsearch.version>8.12.0</elasticsearch.version>
+    <elasticsearch.version>8.17.3</elasticsearch.version>
     <java.source.version>17</java.source.version>
     <java.target.version>17</java.target.version>
     <maven.compiler.source>17</maven.compiler.source>
